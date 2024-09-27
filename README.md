@@ -2,11 +2,11 @@
 #### Desafio proposto no curso UML para Desenvolvimento de Software no SENAC. O desafio tem como finalidade desenvolver um algoritmo em C que lê e calcula a palavra dos jogadores e retorna o vencedor. 
 
 ## Como funciona?
-#### Cada letra da palavra possui um valor corresponde, como na tebela a seguir:
+#### É requisitado que 2 jogadores digitem uma palavra, cada letra da palavra possui um valor corresponde, como na tebela a seguir:
 |A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q |R|S|T|U|V|W|X|Y|Z |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|--|-|-|-|-|-|-|-|-|--|
 |1|3|3|2|1|4|2|4|1|8|5|1|3|1|1|3|10|1|1|1|1|4|4|8|4|10|
-#### É requisitado que cada jogador digite uma palavra, apóis isso o algoritmo passa por um processo de loop aninhado que faz a iteração e a pesquida da localização de determinada letra, que, uma vez encontrada, é adicionado o valor corresponde à letra ao contador responsável por fazer a soma dos pontos.
+#### Apóis isso o algoritmo passa por um processo de loop aninhado que faz a iteração e a pesquida da localização de determinada letra, que, uma vez encontrada, é adicionado o valor corresponde à letra ao contador responsável por fazer a soma dos pontos.
 #### Utilizei arrays como forma de estrutura de dados e loop aninhado a fim de praticar.
 #### Ganha o jogador que fizer mais pontos.
 
